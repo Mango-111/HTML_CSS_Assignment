@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+}
+
+.H1 {
+    background-color: grey;
+    color: white;
+    height: 100px;
+    /* vertical-align: middle; */
+    /* padding: 15px 300px;*/
+}
+
+.header1 {
+    background-image: url(../IMAGES/images/hbg2.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 600px;
+    background-size: cover;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+}
+
+.conbtn {
+    width: 200px;
+    height: 70px;
+    border-radius: 4%;
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+}
+
+.navmain {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cards1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.searcH {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+}
+
+.searcH p {
+    font-style: italic;
+    font-size: larger;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+.play {
+    height: 90px;
+    margin-top: 10px;
+    width: 15%;
+    opacity: 0.6;
+    background-color: chartreuse;
+}
+
+.header1right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headpara {
+    font-size: 50px;
+}
+
+.header {
+    background-image: url(../IMAGES/images/hbg2.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.H3 {
+    background-image: url(../IMAGES/images/hbg6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.footer1 {
+    background-color: black;
+    height: fit-content;
+    padding-top: 10px;
+    width: fit-content
+}
+
+.footers1 {
+    min-height: 60px;
+    background-color: maroon;
+    padding-top: 10px;
+    color: mintcream;
+    width: 100%;
+    border: 2px solid wheat;
+}
+
+.footer2 {
+    height: 30px;
+    background-color: white;
+    color: gray;
+    text-align: center;
+}
+
+.img3 {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.car {
+    background-image: url(../IMAGES/images/hbg6.png);
+}
+
+@media only screen and (max-width: 600px) {
+    .headpara {
+        font-size: 30px;
+    }
+    .H1 {
+        margin-top: 0px;
+    }
+    .searchP {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .searcH p {
+        margin-right: 0px;
+    }
+    .cards1 {
+        margin-top: 40px;
+    }
+    .mycarousel img {
+        margin-left: 10px;
+        right: 17%;
+        position: relative;
+    }
+    .slogo {
+        right: 15%;
+        position: relative;
+    }
+    .blog1 {
+        margin-top: 40px;
+    }
+    .fbtn {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .abt {
+        margin-top: 0%;
+    }
+    .headlogo {
+        width: 80% !important;
+    }
+    .Image {
+        margin-right: -100px;
+        margin-left: 100px;
+        margin-top: 20px;
+        min-width: 500px;
+    }
+    .blogpostcard {
+        width: 95%;
+    }
+}
+
+.mycarousel {
+    background-image: url(../IMAGES/images/hbg5.png);
+    background-size: cover;
+    min-height: 600px;
+}
+
+.mycarousel h4 {
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    color: white;
+    text-align: center;
+}
+
+.mycarousel h5 {
+    text-align: center;
+    color: white;
+}
+
+.mycarousel img {
+    margin-left: 45%;
+    margin-top: 150px;
+}
+
+.mycarousel p {
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.blogpostcard {
+    width: 60%;
+}
